@@ -16,7 +16,7 @@ export class AppComponent {
 
   form = this.fb.group({
     order: ["", Validators.required],
-    mane: ["", Validators.required],
+    name: ["", Validators.required],
     phone: ["", Validators.required],
   });
 
