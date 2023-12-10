@@ -25,8 +25,8 @@ body{
 }
 
 .button{
-  border-radius: 8px;
   background: linear-gradient(96deg, #DA8023 0%, #E2B438) 100%;
+  border-radius: 8px;
   width: 260px;
   height: 62px;
   padding: 19px;
@@ -44,6 +44,13 @@ body{
 .button:hover{
   background: linear-gradient(96deg, #AC6115 0%, #9E7a19) 100%;
 }
+
+.button:disabled{
+  cursor: not-allowed;
+  color: gray;
+  background: #343434;
+}
+
 
 .common-title{
   text-align: center;
