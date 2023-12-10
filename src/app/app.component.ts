@@ -20,6 +20,7 @@ export class AppComponent {
     phone: ["", Validators.required],
   });
 
+
   productsData = [
     {
       image: "1.png",
